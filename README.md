@@ -14,4 +14,11 @@ This project involves the design and implementation on an **omnidirectional mobi
 [Click to Watch on YouTube](https://youtube.com/shorts/wTYX9rH3BQc?feature=share)
 
 ## Key Features
-* **Omnidirectional Mobility:**
+* **Omnidirectional Mobility:** Utilized Mecanum wheels to achieve 3-DOF movement on a 2D plane.
+* **Wirekess Teleoperation:** Real-time control via Bluetooth Serial Port Profile using the HC-06 module.
+* **Safety Mechanism:** Integrated ultrasonic sensors (HC-SR04) to continually monitor the environment and trigger emergency stops within 20cm of the obstacle.
+
+## System Architecture
+
+### Hardware Tech Stack
+### Software Logic
