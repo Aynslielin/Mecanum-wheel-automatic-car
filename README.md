@@ -51,3 +51,6 @@ Below is the finished prototype of the Mecanum Wheel Robot:
 
 ### Robot View (Top View)
 ![](images/Robot_top.jpg)
+
+### Arduino Bluetooth Control App
+![]()
