@@ -35,3 +35,9 @@ The control system operates on a loop that handles:
 
 ## Kinematic Principle
 The mecanum wheel allows for a force vector perpendicular to the wheel rotation. By combining the rotation directions of the four wheels, the robot creates a net force vector in any desired direction.
+To achieve lateral movement (strafing), the wheels are driven in opposition:
+* **Strafe Right:** Front-Left & Rear-Right (Forward) + Front-Right & Rear-Left (Backward)
+* **Strafe Left:** Front-Left & Rear Right (Backward) + Front-Right & Rear-Left (forward)
+
+![Mecanum Wheel Force Vectors](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mecanum_wheel_control_principle.svg/960px-Mecanum_wheel_control_principle.svg.png)
+*(Credit: Wikimedia)
