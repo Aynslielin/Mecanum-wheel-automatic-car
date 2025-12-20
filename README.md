@@ -21,4 +21,14 @@ This project involves the design and implementation on an **omnidirectional mobi
 ## System Architecture
 
 ### Hardware Tech Stack
+* **Microcontroller:** Arduino Mega 2560
+* **Actuators:** 4x DC TT-Motors with Gearbox
+* **Drive System:** 4x Mecanum Wheels (Roller angle: 45°)
+* **Sensors:** HC-SR04 Ultrasonic Distance Sensor
+* **Communnication:** HC-05 Bluetooth Module
+
 ### Software Logic
+The control system operates on a loop that handles:
+1. **Signal Parsing:** Decoding characters received from the Android App via Bluetooth (UART).
+2. **Motor Mixing:** Converting the desired direction command into specific PWM signals for the four independent motors.
+3. **Interrupt/Polling:** Checking sensor data to override user commands if an  obstacle is imminent.
