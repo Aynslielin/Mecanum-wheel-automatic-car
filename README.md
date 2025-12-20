@@ -1,4 +1,4 @@
-# Smart-Controlled Mecanum Wheel Robot
+# Omnidirectional Mobile Robot Platform
 
 **Course:** Robotics and Control Practice Project (Fall 2024)
 **Institution:** National Taiwan Ocean University (NTOU)
